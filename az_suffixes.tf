@@ -63,3 +63,9 @@ output "key_vault_suffix" {
   #########################
   value = "vault"
 }
+
+# key vault secret
+output "secret_suffix" {
+  #########################
+  value = "secret"
+}
