@@ -339,9 +339,3 @@ output "vif_suffix" {
   ###################
   value = "vif"
 }
-
-# user assigned identity
-output "user_assigned_identity_suffix" {
-  ######################################
-  value = "uai"
-}

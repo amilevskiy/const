@@ -69,3 +69,9 @@ output "secret_suffix" {
   #########################
   value = "secret"
 }
+
+# user assigned identity
+output "user_assigned_identity_suffix" {
+  ######################################
+  value = "uai"
+}
