@@ -253,3 +253,9 @@ output "fmt_backend_role_arn" {
   #############################
   value = "arn:aws:iam::%s:role/TerrafomBackendRoleFor%s"
 }
+
+###########################
+output "last_rule_number" {
+  #########################
+  value = 32766
+}
