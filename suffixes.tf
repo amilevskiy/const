@@ -88,6 +88,12 @@ output "tgw_suffix" {
   value = "tgw"
 }
 
+# The suffix of Transit gateway attachment resource
+output "tgw_attachment_suffix" {
+  ##############################
+  value = "tgw_attachment"
+}
+
 # The suffix of VPN gateway resource
 output "vpn_suffix" {
   ###################
@@ -205,7 +211,7 @@ output "asg_suffix" {
 # The suffix of Placement Group
 output "placement_group_suffix" {
   ###############################
-  value = "placement_group"
+  value = "pg"
 }
 
 # The suffix of Launch Template
