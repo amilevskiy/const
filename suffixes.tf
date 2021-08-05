@@ -94,6 +94,12 @@ output "tgw_attachment_suffix" {
   value = "attachment"
 }
 
+# The suffix of Transit gateway attachment resource
+output "tgw_peering_suffix" {
+  ###########################
+  value = "peering"
+}
+
 # The suffix of VPN gateway resource
 output "vpn_suffix" {
   ###################
