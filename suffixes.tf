@@ -351,3 +351,10 @@ output "vif_suffix" {
   ###################
   value = "vif"
 }
+
+# The suffix of Endpoint
+output "vpc_endpoint_suffix" {
+  ############################
+  value = "vpce"
+}
+
