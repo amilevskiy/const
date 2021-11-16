@@ -1,3 +1,10 @@
+####################
+output "az_prefix" {
+  ##################
+  value       = "az"
+  description = "The common prefix for Azure resources"
+}
+
 # management group
 output "mgmt_grp_suffix" {
   ########################

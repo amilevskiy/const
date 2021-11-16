@@ -357,4 +357,3 @@ output "vpc_endpoint_suffix" {
   ############################
   value = "vpce"
 }
-
