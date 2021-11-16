@@ -256,6 +256,12 @@ output "cloudwatch_alarm_suffix" {
   value = "cw_alarm"
 }
 
+# The suffix of IAM Policy
+output "iam_policy_suffix" {
+  ##########################
+  value = "iam_policy"
+}
+
 # The suffix of IAM Role
 output "iam_role_suffix" {
   ########################
