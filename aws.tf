@@ -49,20 +49,6 @@ output "lock_primary_key" {
   description = "https://www.terraform.io/docs/backends/types/s3.html#dynamodb_table"
 }
 
-################################
-output "backend_policy_prefix" {
-  ##############################
-  value = "TerrafomBackendPolicyFor"
-}
-
-###############################################
-# fmt - means for using with format() functions
-###############################################
-output "fmt_backend_role_arn" {
-  #############################
-  value = "arn:aws:iam::%s:role/TerrafomBackendRoleFor%s"
-}
-
 ###########################
 output "last_rule_number" {
   #########################
