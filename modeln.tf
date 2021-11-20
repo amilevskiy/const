@@ -1,8 +1,7 @@
-##################
-output "mn_code" {
-  ################
-  value       = "sky"
-  description = "https://revvy-modeln.atlassian.net/wiki/spaces/MNNOC/pages/81986730/Customer+codes"
+#################################
+output "mn_umbrella_account_id" {
+  ###############################
+  value = "217819193785"
 }
 
 ##################
@@ -15,6 +14,13 @@ output "regions" {
     eu_dr      = { mn_code = "ir", id = "euw1", name = "eu-west-1" }
   }
   description = "https://revvy-modeln.atlassian.net/wiki/spaces/COPS/pages/587956985/Naming+Conventions"
+}
+
+##################
+output "mn_code" {
+  ################
+  value       = "sky"
+  description = "https://revvy-modeln.atlassian.net/wiki/spaces/MNNOC/pages/81986730/Customer+codes"
 }
 
 ###################
