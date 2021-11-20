@@ -5,11 +5,11 @@ output "awscli_terraform_profile" {
   description = "AWS cli profile name which has been used for backend operations"
 }
 
-#####################
-output "backend_mk" {
-  ###################
-  value       = "backend.mk"
-  description = "Makefile with variables that have been used for backend.tf generation (legacy)"
+#############################
+output "terraform_username" {
+  ###########################
+  value       = "terraform"
+  description = "The name of terraform IAM user "
 }
 
 ##############################
@@ -28,13 +28,6 @@ output "backend_policy_prefix" {
 output "backend_role_name" {
   ##########################
   value = "TerraformBackendRole"
-}
-
-###########################
-output "backend_template" {
-  #########################
-  value       = "backend.tf_template"
-  description = "Template file for backend.tf generation (legacy)"
 }
 
 #####################
@@ -70,14 +63,7 @@ output "tfstate_file" {
 output "tfstate_local_file" {
   ###########################
   value       = "terraform-local.tfstate"
-  description = "The local copy (that we should make) of terraform state when remote mode has been used"
-}
-
-#########################
-output "tfstate_output" {
-  #######################
-  value       = "tfstate.output.json"
-  description = "The copy of terraform output formatted as JSON (legacy)"
+  description = "The local copy (that caller should make) of terraform state when remote mode has been used"
 }
 
 ##########################
