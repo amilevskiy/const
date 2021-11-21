@@ -36,3 +36,22 @@ output "mn_private_cidrs" {
   value       = ["10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16", "100.64.0.0/10", "198.18.0.0/15"]
   description = "All of private prefixes"
 }
+
+#########################
+output "mn_domain_name" {
+  #######################
+  value = "modeln.com"
+}
+
+#############################
+output "mn_aws_domain_name" {
+  ###########################
+  value = "aws.modeln.com"
+}
+
+##########################################
+output "mn_internal_domain_name_servers" {
+  ########################################
+  value       = ["10.103.0.25", "10.103.0.19"]
+  description = "Domain name servers"
+}
