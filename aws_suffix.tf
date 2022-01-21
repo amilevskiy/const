@@ -1,365 +1,304 @@
-# The suffix of subnet names
 output "subnet_suffix" {
-  ######################
-  value = "sn"
+  value       = "sn"
+  description = "The suffix of subnet names"
 }
 
-# The suffix of instance names
 output "instance_suffix" {
-  ########################
-  value = "vs"
+  value       = "vs"
+  description = "The suffix of instance names"
 }
 
-# The suffix of security group names
 output "sg_suffix" {
-  ##################
-  value = "sg"
+  value       = "sg"
+  description = "The suffix of security group names"
 }
 
-# The suffix of elastic network interface names
 output "eni_suffix" {
-  ###################
-  value = "eni"
+  value       = "eni"
+  description = "The suffix of elastic network interface names"
 }
 
-# The suffix of application load balancer
 output "alb_suffix" {
-  ###################
-  value = "alb"
+  value       = "alb"
+  description = "The suffix of application load balancer"
 }
 
-# The suffix of network load balancer
 output "nlb_suffix" {
-  ###################
-  value = "nlb"
+  value       = "nlb"
+  description = "The suffix of network load balancer"
 }
 
-# The suffix of route table
 output "rtb_suffix" {
-  ###################
-  value = "rtb"
+  value       = "rtb"
+  description = "The suffix of route table"
 }
 
-# The suffix of dhcp options resource
 output "dhcp_options_suffix" {
-  ############################
-  value = "dhcp_options"
+  value       = "dhcp_options"
+  description = "The suffix of dhcp options resource"
 }
 
-# The suffix of VPC resource
 output "vpc_suffix" {
-  ###################
-  value = "vpc"
+  value       = "vpc"
+  description = "The suffix of VPC resource"
 }
 
-# The suffix of newtork access-list resource
 output "acl_suffix" {
-  ###################
-  value = "acl"
+  value       = "acl"
+  description = "The suffix of newtork access-list resource"
 }
 
-# The suffix of internet gateway resource
 output "igw_suffix" {
-  ###################
-  value = "igw"
+  value       = "igw"
+  description = "The suffix of internet gateway resource"
 }
 
-# The suffix of NAT gateway resource
 output "ngw_suffix" {
-  ###################
-  value = "ngw"
+  value       = "ngw"
+  description = "The suffix of NAT gateway resource"
 }
 
-# The suffix of VPN gateway resource
 output "vgw_suffix" {
-  ###################
-  value = "vgw"
+  value       = "vgw"
+  description = "The suffix of VPN gateway resource"
 }
 
-# The suffix of Customer gateway resource
 output "cgw_suffix" {
-  ###################
-  value = "cgw"
+  value       = "cgw"
+  description = "The suffix of Customer gateway resource"
 }
 
-# The suffix of Transit gateway resource
 output "tgw_suffix" {
-  ###################
-  value = "tgw"
+  value       = "tgw"
+  description = "The suffix of Transit gateway resource"
 }
 
-# The suffix of Transit gateway attachment resource
 output "tgw_attachment_suffix" {
-  ##############################
-  value = "attachment"
+  value       = "attachment"
+  description = "The suffix of Transit gateway attachment resource"
 }
 
-# The suffix of Transit gateway attachment resource
 output "tgw_peering_suffix" {
-  ###########################
-  value = "peering"
+  value       = "peering"
+  description = "The suffix of Transit gateway attachment resource"
 }
 
-# The suffix of VPN gateway resource
 output "vpn_suffix" {
-  ###################
-  value = "vpn"
+  value       = "vpn"
+  description = "The suffix of VPN gateway resource"
 }
 
-# The suffix of elastic IP resource
 output "eip_suffix" {
-  ###################
-  value = "eip"
+  value       = "eip"
+  description = "The suffix of elastic IP resource"
 }
 
-# The suffix of VPC peering resource
 output "pcx_suffix" {
-  ###################
-  value = "pcx"
+  value       = "pcx"
+  description = "The suffix of VPC peering resource"
 }
 
-# The suffix of [classic] elastic load balancer
 output "elb_suffix" {
-  ###################
-  value = "elb"
+  value       = "elb"
+  description = "The suffix of [classic] elastic load balancer"
 }
 
-# The suffix for AWS Certificate Manager things
 output "acm_suffix" {
-  ###################
-  value = "acm"
+  value       = "acm"
+  description = "The suffix for AWS Certificate Manager things"
 }
 
-# The suffix of load balancer's target group
 output "tgrp_suffix" {
-  ####################
-  value = "tgrp"
+  value       = "tgrp"
+  description = "The suffix of load balancer's target group"
 }
 
-# The suffix of root EBS storage
 output "root_ebs_suffix" {
-  ########################
-  value = "root"
+  value       = "root"
+  description = "The suffix of root EBS storage"
 }
 
-# The suffix of EBS storage
 output "ebs_suffix" {
-  ###################
-  value = "ebs"
+  value       = "ebs"
+  description = "The suffix of EBS storage"
 }
 
-# The suffix of S3 bucket
 output "s3_suffix" {
-  ##################
-  value = "s3"
+  value       = "s3"
+  description = "The suffix of S3 bucket"
 }
 
-# The suffix of S3 lifecycle rule
 output "s3_lifecycle_suffix" {
-  ############################
-  value = "s3_lifecycle"
+  value       = "s3_lifecycle"
+  description = "The suffix of S3 lifecycle rule"
 }
 
-# The suffix of S3 object
 output "s3_object_suffix" {
-  #########################
-  value = "s3_object"
+  value       = "s3_object"
+  description = "The suffix of S3 object"
 }
 
-# The suffix of DynamoDB
 output "dynamodb_suffix" {
-  ########################
-  value = "dyndb"
+  value       = "dyndb"
+  description = "The suffix of DynamoDB"
 }
 
-# The suffix of Endpoint
 output "endpoint_suffix" {
-  ########################
-  value = "endpoint"
+  value       = "endpoint"
+  description = "The suffix of Endpoint"
 }
 
-# The suffix of RDS
 output "rds_suffix" {
-  ###################
-  value = "rds"
+  value       = "rds"
+  description = "The suffix of RDS"
 }
 
-# The suffix of RDS DB subnet group
 output "dbsn_suffix" {
-  ####################
-  value = "db-sn"
+  value       = "db-sn"
+  description = "The suffix of RDS DB subnet group"
 }
 
-# The suffix of SNS service
 output "sns_suffix" {
-  ###################
-  value = "sns"
+  value       = "sns"
+  description = "The suffix of SNS service"
 }
 
-# The suffix of SNAPSHOT
 output "snapshot_suffix" {
-  ########################
-  value = "snapshot"
+  value       = "snapshot"
+  description = "The suffix of SNAPSHOT"
 }
 
-# The suffix of CloudTrail
 output "cloudtrail_suffix" {
-  ##########################
-  value = "trail"
+  value       = "trail"
+  description = "The suffix of CloudTrail"
 }
 
-# The suffix of Autoscaling Group
 output "asg_suffix" {
-  ###################
-  value = "asg"
+  value       = "asg"
+  description = "The suffix of Autoscaling Group"
 }
 
-# The suffix of Placement Group
 output "placement_group_suffix" {
-  ###############################
-  value = "pg"
+  value       = "pg"
+  description = "The suffix of Placement Group"
 }
 
-# The suffix of Launch Template
 output "launch_template_suffix" {
-  ###############################
-  value = "lt"
+  value       = "lt"
+  description = "The suffix of Launch Template"
 }
 
-# The suffix of RDS Parameter Group
 output "parameter_group_suffix" {
-  ###############################
-  value = "parameter_group"
+  value       = "parameter_group"
+  description = "The suffix of RDS Parameter Group"
 }
 
-# The suffix of Amazon Image
 output "ami_suffix" {
-  ###################
-  value = "ami"
+  value       = "ami"
+  description = "The suffix of Amazon Image"
 }
 
-# The suffix of CloudWatch Dashboard
 output "dashboard_suffix" {
-  #########################
-  value = "dashboard"
+  value       = "dashboard"
+  description = "The suffix of CloudWatch Dashboard"
 }
 
-# The suffix of CloudWatch Log Group
 output "cloudwatch_log_group_suffix" {
-  ####################################
-  value = "cw_logroup"
+  value       = "cw_logroup"
+  description = "The suffix of CloudWatch Log Group"
 }
 
-# The suffix of CloudWatch Log Group
 output "cloudwatch_alarm_suffix" {
-  ################################
-  value = "cw_alarm"
+  value       = "cw_alarm"
+  description = "The suffix of CloudWatch Alarm"
 }
 
-# The suffix of IAM Policy
 output "iam_policy_suffix" {
-  ##########################
-  value = "iam_policy"
+  value       = "iam_policy"
+  description = "The suffix of IAM Policy"
 }
 
-# The suffix of IAM Role
 output "iam_role_suffix" {
-  ########################
-  value = "iam_role"
+  value       = "iam_role"
+  description = "The suffix of IAM Role"
 }
 
-# The suffix of IAM Role
 output "iam_user_suffix" {
-  ########################
-  value = "iam_user"
+  value       = "iam_user"
+  description = "The suffix of IAM Role"
 }
 
-# The suffix of IAM instance profile
 output "iam_instance_profile_suffix" {
-  ####################################
-  value = "profile"
+  value       = "profile"
+  description = "The suffix of IAM instance profile"
 }
 
-# The suffix of Git-Codecommit repository
 output "git_suffix" {
-  ###################
-  value = "git"
+  value       = "git"
+  description = "The suffix of Git-Codecommit repository"
 }
 
-# The suffix of KMS key
 output "kms_suffix" {
-  ###################
-  value = "kms"
+  value       = "kms"
+  description = "The suffix of KMS key"
 }
 
-# The suffix of organization
 output "organization_suffix" {
-  ############################
-  value = "org"
+  value       = "org"
+  description = "The suffix of organization"
 }
 
-# The suffix of sagemaker_notebook_instance
 output "sagemaker_instance_suffix" {
-  ##################################
-  value = "sagemaker"
+  value       = "sagemaker"
+  description = "The suffix of sagemaker_notebook_instance"
 }
 
-# The suffix of key_pair
 output "key_pair_suffix" {
-  ########################
-  value = "kp"
+  value       = "kp"
+  description = "The suffix of key_pair"
 }
 
-# The suffix of guard_duty
 output "guardduty_suffix" {
-  #########################
-  value = "guardduty"
+  value       = "guardduty"
+  description = "The suffix of guard_duty"
 }
 
-# The suffix of inspector
 output "inspector_suffix" {
-  #########################
-  value = "inspector"
+  value       = "inspector"
+  description = "The suffix of inspector"
 }
 
-# The suffix of macie
 output "macie_suffix" {
-  #####################
-  value = "macie"
+  value       = "macie"
+  description = "The suffix of macie"
 }
 
-# The suffix of flow log
 output "flow_log_suffix" {
-  ########################
-  value = "flow_log"
+  value       = "flow_log"
+  description = "The suffix of flow log"
 }
 
-# The suffix of analyzer
 output "analyzer_suffix" {
-  ########################
-  value = "analyzer"
+  value       = "analyzer"
+  description = "The suffix of analyzer"
 }
 
-# The suffix of Resource Access Manager
 output "ram_suffix" {
-  ###################
-  value = "ram"
+  value       = "ram"
+  description = "The suffix of Resource Access Manager"
 }
 
-# The suffix of Direct Connect
 output "direct_connect_suffix" {
-  ##############################
-  value = "dx"
+  value       = "dx"
+  description = "The suffix of Direct Connect"
 }
 
-# The suffix of Virtual Interface
 output "vif_suffix" {
-  ###################
-  value = "vif"
+  value       = "vif"
+  description = "The suffix of Virtual Interface"
 }
 
-# The suffix of Endpoint
 output "vpc_endpoint_suffix" {
-  ############################
-  value = "vpce"
+  value       = "vpce"
+  description = "The suffix of Endpoint"
 }

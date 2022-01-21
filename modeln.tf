@@ -1,12 +1,9 @@
-#################################
 output "mn_umbrella_account_id" {
-  ###############################
-  value = "217819193785"
+  value       = "217819193785"
+  description = "Model N entry point account_id"
 }
 
-##################
 output "regions" {
-  ################
   value = {
     primary    = { mn_code = "vi", id = "use1", name = "us-east-1" }
     dr         = { mn_code = "or", id = "usw2", name = "us-west-2" }
@@ -16,42 +13,32 @@ output "regions" {
   description = "https://revvy-modeln.atlassian.net/wiki/spaces/COPS/pages/587956985/Naming+Conventions"
 }
 
-##################
 output "mn_code" {
-  ################
   value       = "sky"
   description = "https://revvy-modeln.atlassian.net/wiki/spaces/MNNOC/pages/81986730/Customer+codes"
 }
 
-###################
 output "mn_cidrs" {
-  #################
   value       = ["10.0.0.0/8", "172.16.0.0/19"]
   description = "Prefixes that cover Model N networks"
 }
 
-###########################
 output "mn_private_cidrs" {
-  #########################
   value       = ["10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16", "100.64.0.0/10", "198.18.0.0/15"]
   description = "All of private prefixes"
 }
 
-#########################
 output "mn_domain_name" {
-  #######################
-  value = "modeln.com"
+  value       = "modeln.com"
+  description = "Main DNS zone"
 }
 
-#############################
 output "mn_aws_domain_name" {
-  ###########################
-  value = "aws.modeln.com"
+  value       = "aws.modeln.com"
+  description = "AWS subdomain"
 }
 
-##########################################
 output "mn_internal_domain_name_servers" {
-  ########################################
   value       = ["10.103.0.25", "10.103.0.19"]
   description = "Domain name servers"
 }

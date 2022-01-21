@@ -1,42 +1,34 @@
-# The delimiter to be used between.
 output "delimiter" {
-  ##################
-  value = "-"
+  value       = "-"
+  description = "The delimiter to be used between parts of whole name"
 }
 
-# The undescrore char
 output "underscore" {
-  ###################
-  value = "_"
+  value       = "_"
+  description = "The undescrore symbol"
 }
 
-# The field delimiter to be used in join() between fields.
 output "field_separator" {
-  ########################
-  value = ":"
+  value       = ":"
+  description = "The field delimiter to be used to join() fields"
 }
 
-# The field delimiter to be used in join() between list items.
 output "item_separator" {
-  #######################
-  value = ","
+  value       = ","
+  description = "The field delimiter to be used to join() list items"
 }
 
-# The path delimiter to be used in *NIX'es.
 output "path_separator" {
-  #######################
-  value = "/"
+  value       = substr(abspath(path.module), length(dirname(abspath(path.module))), 1)
+  description = "The path separator"
 }
 
-# The double_quote
 output "double_quote" {
-  #####################
-  value = "\""
+  value       = "\""
+  description = "The double quote"
 }
 
-###########################
 output "regexp_tail_dots" {
-  #########################
   value       = "/\\.+$/"
   description = "The regular expression for using in replace() to delete tail dots."
 }

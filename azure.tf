@@ -1,84 +1,69 @@
-####################
 output "az_prefix" {
-  ##################
   value       = "az"
   description = "The common prefix for Azure resources"
 }
 
-# management group
 output "mgmt_grp_suffix" {
-  ########################
-  value = "mg"
+  value       = "mg"
+  description = "Management group"
 }
 
-# resource group
 output "resource_group_suffix" {
-  ##############################
-  value = "rg"
+  value       = "rg"
+  description = "Resource group"
 }
 
-# virtual network
 output "vnet_suffix" {
-  ####################
-  value = "vnet"
+  value       = "vnet"
+  description = "Virtual network"
 }
 
-# storage account
 output "storage_account_suffix" {
-  ###############################
-  value = "storage_account"
+  value       = "storage_account"
+  description = "Storage account"
 }
 
-# Application Gateway
 output "application_gateway_suffix" {
-  ###################################
-  value = "appgw"
+  value       = "appgw"
+  description = "Application Gateway"
 }
 
-# ip_configuration
 output "ip_config_suffix" {
-  #########################
-  value = "ip_configuration"
+  value       = "ip_configuration"
+  description = "IP configuration"
 }
 
-# Network Watcher
 output "network_watcher_suffix" {
-  ###############################
-  value = "netwatcher"
+  value       = "netwatcher"
+  description = "Network Watcher"
 }
 
-# App Service Certificate
 output "certificate_suffix" {
-  ###########################
-  value = "certificate"
+  value       = "certificate"
+  description = "App Service Certificate"
 }
 
-# virtual_machine_extension
 output "vm_extension_suffix" {
-  ############################
-  value = "extension"
+  value       = "extension"
+  description = "Virtual machine extension"
 }
 
-# network ddos protection plan
 output "ddos_protection_suffix" {
-  ###############################
-  value = "antiddos"
+  value       = "antiddos"
+  description = "Network DDoS protection plan"
 }
 
-# key vault
 output "key_vault_suffix" {
-  #########################
-  value = "vault"
+  value       = "vault"
+  description = "Key vault"
 }
 
-# key vault secret
 output "secret_suffix" {
-  #########################
-  value = "secret"
+  value       = "secret"
+  description = "Key vault secret"
 }
 
-# user assigned identity
 output "user_assigned_identity_suffix" {
-  ######################################
-  value = "uai"
+  value       = "uai"
+  description = "User assigned identity"
 }

@@ -1,6 +1,4 @@
-#################
 output "prefix" {
-  ###############
   value       = "aws"
   description = "The common prefix for AWS resources"
 }
@@ -25,38 +23,32 @@ output "prefix" {
 #	us-west-2a	us-west-2b	us-west-2c
 #For convenient way to destroy instances.
 output "abs_max_az_number" {
-  ##########################
-  value = "6"
+  value       = "6"
+  description = "The absolute maximum of region number"
 }
 
-################################
 output "s3_canned_acl_private" {
-  ##############################
-  value = "private"
+  value       = "private"
+  description = "The canned acl name for private store"
 }
 
-#############################
 output "s3_aws_logs_prefix" {
-  ###########################
-  value = "AWSLogs"
+  value       = "AWSLogs"
+  description = "The default name of folder where logs have been stored"
 }
 
 #Do not change!
-###########################
 output "lock_primary_key" {
-  #########################
   value       = "LockID"
   description = "https://www.terraform.io/docs/backends/types/s3.html#dynamodb_table"
 }
 
-###########################
 output "last_rule_number" {
-  #########################
-  value = 32766
+  value       = 32766
+  description = "The rule last number for network acl"
 }
 
-#########################
 output "policy_version" {
-  #######################
-  value = "2012-10-17"
+  value       = "2012-10-17"
+  description = "The last policy version"
 }
