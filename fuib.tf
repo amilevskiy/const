@@ -41,10 +41,10 @@ output "sec_label" {
 
 output "az_index" {
   value       = "1"
-  description = "The index in ${data.aws_availability_zones.available.names} of preferable availability zone. Default - zone b."
+  description = "The index in data.aws_availability_zones.available.names of preferable availability zone. Default - zone b."
 }
 
 output "backup_az_index" {
   value       = "0"
-  description = "The index in ${data.aws_availability_zones.available.names} of backup availability zone. Default - zone a."
+  description = "The index in data.aws_availability_zones.available.names of backup availability zone. Default - zone a."
 }

@@ -32,13 +32,13 @@ No inputs.
 | <a name="output_application_gateway_suffix"></a> [application\_gateway\_suffix](#output\_application\_gateway\_suffix) | Application Gateway |
 | <a name="output_asg_suffix"></a> [asg\_suffix](#output\_asg\_suffix) | The suffix of Autoscaling Group |
 | <a name="output_awscli_terraform_profile"></a> [awscli\_terraform\_profile](#output\_awscli\_terraform\_profile) | AWS cli profile name which has been used for backend operations |
-| <a name="output_az_index"></a> [az\_index](#output\_az\_index) | The index in ${data.aws\_availability\_zones.available.names} of preferable availability zone. Default - zone b. |
+| <a name="output_az_index"></a> [az\_index](#output\_az\_index) | The index in data.aws\_availability\_zones.available.names of preferable availability zone. Default - zone b. |
 | <a name="output_az_prefix"></a> [az\_prefix](#output\_az\_prefix) | The common prefix for Azure resources |
 | <a name="output_backend_policy_name"></a> [backend\_policy\_name](#output\_backend\_policy\_name) | The name of policy with terraform has an access to backend state store |
 | <a name="output_backend_policy_prefix"></a> [backend\_policy\_prefix](#output\_backend\_policy\_prefix) | The prefix of policy name to access from another account |
 | <a name="output_backend_role_name"></a> [backend\_role\_name](#output\_backend\_role\_name) | The name of role with terraform has an access to backend state store (use backend\_policy\_name) |
 | <a name="output_backend_tf"></a> [backend\_tf](#output\_backend\_tf) | Generated file name with backend configuration |
-| <a name="output_backup_az_index"></a> [backup\_az\_index](#output\_backup\_az\_index) | The index in ${data.aws\_availability\_zones.available.names} of backup availability zone. Default - zone a. |
+| <a name="output_backup_az_index"></a> [backup\_az\_index](#output\_backup\_az\_index) | The index in data.aws\_availability\_zones.available.names of backup availability zone. Default - zone a. |
 | <a name="output_certificate_suffix"></a> [certificate\_suffix](#output\_certificate\_suffix) | App Service Certificate |
 | <a name="output_cgw_suffix"></a> [cgw\_suffix](#output\_cgw\_suffix) | The suffix of Customer gateway resource |
 | <a name="output_cidr_any"></a> [cidr\_any](#output\_cidr\_any) | CIDR to allow all IPv4 traffic |
